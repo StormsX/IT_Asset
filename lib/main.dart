@@ -100,10 +100,10 @@ class _PrimaState extends State<Prima> {
                         children: [
                           IconButton(
                               onPressed: () {
-                                showSearch(
+                               /*  showSearch(
                                   context: context,
                                   delegate: CustomSearchDelegate(),
-                                );
+                                ); */
                               },
                               icon: const Icon(Icons.search))
                         ],
@@ -119,7 +119,7 @@ class _PrimaState extends State<Prima> {
     );
   }
 }
-
+/* 
 class CustomSearchDelegate extends SearchDelegate {
   List<String> searchTerms = [
     "Apple",
@@ -155,3 +155,4 @@ class CustomSearchDelegate extends SearchDelegate {
   @override
   Widget buildSuggestions(BuildContext context) {}
 }
+ */
